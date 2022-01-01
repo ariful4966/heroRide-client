@@ -70,7 +70,7 @@ const CustomerForm = ({ customer }) => {
     if (match) {
      if(customer){
        
-      fetch("http://localhost:4000/customer/login", {
+      fetch("https://hero-rider-server0.herokuapp.com/customer/login", {
         method: "POST",
         body: formData,
        
@@ -85,7 +85,7 @@ const CustomerForm = ({ customer }) => {
         })
         
      }else{
-      fetch("http://localhost:4000/customer", {
+      fetch("https://hero-rider-server0.herokuapp.com/customer", {
         method: "POST",
         body: formData,
       })

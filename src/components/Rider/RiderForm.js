@@ -59,7 +59,7 @@ const RiderForm = ({ ride }) => {
     if (match) {
       if (ride) {
        
-        fetch("http://localhost:4000/rider/login", {
+        fetch("https://hero-rider-server0.herokuapp.com/rider/login", {
           method: "POST",
           body: formData,
         })
@@ -69,7 +69,7 @@ const RiderForm = ({ ride }) => {
             history.replace(from);
           });
       } else {
-        fetch("http://localhost:4000/rider", {
+        fetch("https://hero-rider-server0.herokuapp.com/rider", {
           method: "POST",
           body: formData,
         })
