@@ -1,0 +1,10 @@
+.siderMenu {
+  display: block;
+  width: 80%;
+  /* overflow: hidden; */
+}
+.siderMenu button {
+  display: block;
+  width: 80%;
+  /* overflow: hidden; */
+}
